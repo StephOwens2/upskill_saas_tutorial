@@ -24,6 +24,40 @@
 
 }
 
+.navbar {
+    border: none;
+}
+
+.navbar-light .navbar-brand, .nav-link{
+    color: white;
+}
+
+.navbar-light .navbar-brand, .nav-link:hover{
+    color: white;
+    opacity: 0.75;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+    opacity: 0.75;
+}
+
+.navbar-light .navbar-brand:hover{
+    color: white;
+    opacity: 0.75;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link a{
+    color: white;
+}
+
+
 
 h1, h2, h3{
     /*font-family: 'Montserrat', sans-serif;*/
