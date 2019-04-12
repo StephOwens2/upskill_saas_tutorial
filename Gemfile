@@ -46,6 +46,10 @@ gem 'jbuilder', '2.5.0'
 #UpSkill changes: Use Twitter Bootstrap library for front-end UI and layout 
 gem 'bootstrap-sass', '3.3.7'
 
+#UpSkill changes: use FontAwesome SASS gem
+#REMOVEING BECAUSE IT ISN'T COMPATIBLE.
+#gem 'font-awesome-sass'
+
 group :development, :test do
   # UpSkill changes - moving this block into here from the top, but it's a different version. 
   # Use sqlite3 as the database for Active Record
