@@ -50,6 +50,10 @@ gem 'bootstrap-sass', '3.3.7'
 #REMOVEING BECAUSE IT ISN'T COMPATIBLE.
 #gem 'font-awesome-sass'
 
+#UpSkill changes: hirb for db display in the console
+gem 'hirb', '0.7.3'
+
+
 group :development, :test do
   # UpSkill changes - moving this block into here from the top, but it's a different version. 
   # Use sqlite3 as the database for Active Record
